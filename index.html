@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Lista de Tarefas</title>
+</head>
+<body>
+    <form class="task">
+        <input type="text" id="idDescricao" placeholder="Descrição">
+        <input type="text" id="idAutor" placeholder="Autor">
+        <input type="text" id="idDepartamento" placeholder="Departamento">
+        <label>Importância:
+            <input type="radio" name="importancia" value="Importante" id="idImportanciaImportante"> Importante
+            <input type="radio" name="importancia" value="Razoável" id="idImportanciaRazoavel"> Razoável
+            <input type="radio" name="importancia" value="Baixo" id="idImportanciaBaixo"> Baixo
+        </label>
+        <input type="number" id="idValor" placeholder="Valor (opcional)">
+        <input type="number" id="idDuracao" placeholder="Duração (opcional)">
+        <button id="btnAddTarefa">Adicionar Tarefa</button>
+    </form>
+    <button id="btnListarPorImportancia">Listar por Importância</button>
+    <ul id="listaTarefa"></ul>
+    <script src="script.js"></script>
+</body>
+</html>

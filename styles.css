@@ -1,0 +1,93 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fff;
+    color: #191919;
+    margin: 0;
+    padding: 0;
+}
+
+.task {
+    max-width: 600px;
+    margin: 40px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    background-color: #f2f2f2;
+}
+
+input[type="text"],
+input[type="number"],
+label {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #f2f2f2;
+    border-radius: 5px;
+    outline: none;
+    width: 100%;
+}
+
+input[type="radio"] {
+    margin-right: 10px;
+}
+
+label {
+    display: flex;
+    align-items: center;
+}
+
+button {
+    cursor: pointer;
+    background-color: #6cf;
+    color: #fff;
+    border: none;
+    padding: 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: rgb(15, 132, 190);
+}
+
+#btnListarPorImportancia {
+    max-width: 600px;
+    margin: 20px auto;
+    display: block;
+}
+
+ul {
+    max-width: 600px;
+    margin: 20px auto;
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background-color: #fff;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+li button {
+    background-color: red;
+    border: none;
+    cursor: pointer;
+    padding: 8px;
+    border-radius: 3px;
+    list-style: none;
+}
+
+li button:hover {
+    background-color: rgb(179, 10, 10);
+}
+
+
